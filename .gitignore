@@ -56,6 +56,7 @@ volumes/
 .*
 !.gitignore
 !.dockerignore
+!.github
 
 # Ignore sensitive information files
 secrets.yml
