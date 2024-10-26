@@ -1,0 +1,65 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment Files
+.env
+*.env
+.env.local
+.env.*.local
+
+# Log Files
+*.log
+logs/
+
+# Temporary Files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Docker
+.docker/
+
+# Certificates and Keys
+*.pem
+*.key
+*.crt
+
+# Dependency Directories
+node_modules/
+vendor/
+
+# Build Outputs
+dist/
+build/
+
+# Backup Files
+*.bak
+*.backup
+
+# Cache Directories
+.cache/
+
+# Specific to homelab setups
+config/
+data/
+volumes/
+
+# Ignore all files starting with . except .gitignore
+.*
+!.gitignore
+!.dockerignore
+
+# Ignore sensitive information files
+secrets.yml
+credentials.json
+
+# Ignore Ansible Vault files
+*.vault
